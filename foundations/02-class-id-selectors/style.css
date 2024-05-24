@@ -1,0 +1,19 @@
+.alternate-element {
+    background-color: rgb(255,139,160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#second-element {
+    color: blue;
+    font-size: 36px;
+}
+
+#third-element {
+    font-size: 36px;
+}
+
+#fourth-element {
+    background-color: lightgreen;
+    font-size: 24px;
+    font: bold;
+}
