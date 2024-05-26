@@ -7,11 +7,6 @@ img {
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
-}
-
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -23,4 +18,39 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 52px;
+  justify-content: space-around;
+}
+
+li {
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.text {
+  text-align: center;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
 }
